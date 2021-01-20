@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+    overflow-x: hidden; /* Get rids of Horizontal Line */
+    font-family: 'Heebo', sans-serif;
+}
+h1{
+    font-family: 'Ruda', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+.title-section{
+    color: #212529;
+    padding: 1.5% 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.white-title-section{
+    color: #fff;
+    padding: 1.5% 0;
+    font-size: 2.5rem;
+}
+/* LANDING SECTION */
+#landing-section{
+    background-color: #212529;
+    color: #fff;
+    padding: 5% 7%;
+    text-align: center;
+}
+
+/* ABOUT ME SECTION */
+#about-section{
+    padding: 3% 5%;
+}
+.self-img{
+    width: 25%;
+    transform: translate(140% ,60%);
+}
+
+/* SKILL SECTION*/
+#skills-section{
+    background-image: url("../assets/xray-01.png");
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 3% 5%;
+}
+
+/*EXPERIENCE SECTION */
+#experience-section{
+    text-align: center;
+    padding: 3% 5%;
+}
+.experience-box{
+    margin-left: 25%;
+    width: 50%;
+}
+.column{
+    padding-bottom: 5%;
+}
+/* PROJECT SECTION */
+#project-section{
+    background-image: url("../assets/xray-03.png");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 3% 7%;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+#footer-section{
+    text-align: center;
+    padding: 3% 5%;
+}
+.footer-icon{
+    color: #212529;
+}
