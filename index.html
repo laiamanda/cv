@@ -2,7 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
+
     <title>Amanda Lai</title>
+
+    <!-- Favicon Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
 
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,7 +28,7 @@
 </head>
 <body>
 
-  <nav class= "navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class= "navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div class = "container-fluid ml-auto">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,22 +37,22 @@
         
         <ul class="navbar-nav ms-auto ml-2 ml-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#landing-section">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#about-section">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills-section">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experiences</a>
+            <a class="nav-link" href="#experience-section">Experiences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#project-section">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#footer-section">Contact</a>
           </li>
         </ul>
       </div>
@@ -54,7 +61,7 @@
   
   <section id = "landing-section">
     <h1>Amanda Lai</h1>
-    <p> <em>Programmer | Web Developer | Artist </em></p>
+    <p class = "landing-paragraph"><em>Programmer | Web Developer | Artist </em></p>
   </section>
 
   <section id = "about-section">
@@ -66,19 +73,19 @@
         <h3 class = "title-section">About Me</h3>
         <p>
           Graduated from University at Albany with a B.S in Computer Science. I focused my academic coursework’s on algorithms, data structure, and mathematics. I am particularly interested in Web Development, UX/UI, and Marketing. 
-          Initially when I started my college career, I felt uneasy in my major. I always wanted to learn programming, however, my coursework made me doubt myself and my skills in programming. 
-          By my junior year, I decided to take a course that I was interested in, which ended up being in web development. </p>
+          Initially when I started my college career, I felt uneasy in my major. I always wanted to learn programming, however, my coursework made me doubt myself and my skills. 
+          By my junior year, I decided to take a web development thinking nothing about it. </p>
 
         <p>
           Since then, I have enjoyed web development and have been honing my skills by working on various side-projects. I even completed a Udemy’s course focusing on Full-Stack development back in 2020. 
           Besides my enjoyment in web development, I enjoy the arts. I like spending my free time writing stories, drawing, painting, and playing instruments. 
-          Some days, you can catch me mesmerized in a museum. When I am not working on any art projects or code, you can find me spending my time on working on a podcast with my friends, baking, or watching dramas and anime. 
+          When I am not working on any art projects or code, you can find me spending my time on working on a podcast with my friends, baking, or watching dramas and anime. 
         </p>
 
         <p>
-          Due to the unfortunate events of 2020, it has made me rethink many of my previous goals.This year, my most important goal is to focus on my health and my family. 
-          Last year, I decided to focus my code on quantity rather than quality. I worked on a lot of small projects. This year, I will learn more programming languages and tools. This
-          I plan to also show more of my programming on GitHub. I also plan draw more and pick up a few languages. 
+          This year, my most important goal is to focus on my health and my family. Last year, I decided to focus my code on quantity rather than quality. 
+          This year, it's the opposite. This year, I plan to learn more programming languages and tools and show it on Github.
+          I want to work on bigger projects that I'm interested in, draw more, and keep applying to jobs. 
         </p>
       </div>
     </div>
@@ -86,58 +93,61 @@
 
   <section id ="skills-section">
     <h3 class = "white-title-section">Skills</h3>
-    <div class = "row">
-      <div class = "skills-box col-4">
+    <div class = "skill-row row">
+      <div class = "skills-box col-lg-4 col-sm-12">
         <i class="fas fa-code fa-4x"></i>
-        <h4>Programming Languages</h4>
+        <h4 class = "skill-title">Programming Languages</h4>
         <p> JavaScript, Java, HTML, CSS, C, Python, Ruby, R, MIPS, MATLAB </p>
       </div>
     
 
-    <div class = "skills-box col-4">
+    <div class = "skills-box col-lg-4 col-sm-12">
       <i class="far fa-eye fa-4x"></i>
-      <h4>Frontend</h4>
+      <h4 class = "skill-title">Frontend</h4>
       <p> Bootstrap, Semantic UI, jQuery, DOM, NodeJS, JSON, XML</p>
     </div>
   
  
-    <div class = "skills-box col-4">
-      <i class="fas fa-database fa-4x"></i>
-      <h4>Backend</h4>
-      <p>Express, EJS, MongoDB, PostgreSQL, SQL, Flask, Restful Routing</p>
+    <div class = "skills-box col-lg-4 col-sm-12">
+      <i class="fas fa-database fa-4x "></i>
+      <h4 class = "skill-title">Backend</h4>
+      <p>Express, EJS, MongoDB, PostgreSQL, SQL, Flask, RESTful Routing</p>
     </div>
   </div>
 
-  <div class = "row">
-    <div class = "skills-box col-4">
+  <div class = "skill-row row">
+    <div class = "skills-box col-lg-4 col-sm-12">
       <i class="fab fa-dev fa-4x"></i>
-      <h4>Software and Dev</h4>
-      <p> Postman, Goorm, Cloud9, Notepad++, Dr Java, Visual Studio Code, Wireshark, Cygwin, WinSCP, Putty, RenPy, RStudio, Git,
-        Sublime Text, Jira, Microsoft Office Suite</p>
+      <h4 class = "skill-title">Software and Dev</h4>
+      <p> Postman, Goorm, Notepad++, Dr Java, Visual Studio Code, Wireshark, WinSCP, Putty, RenPy, RStudio, Git,
+          Jira, Microsoft Office Suite, Windows, Linux</p>
     </div>
 
-    <div class = "skills-box col-4">
+    <div class = "skills-box col-lg-4 col-sm-12">
       <i class="fas fa-palette fa-4x"></i>
-      <h4>Creative</h4>
+      <h4 class = "skill-title">Creative</h4>
       <p>Adobe XD, Adobe Illustrator, Movivia, Medibang Pro, Inkscape, Audacity, Clip Paint Studio, Graphic Design, Wire-framing, Prototyping</p>
     </div>
 
-    <div class = "skills-box col-4">
+    <div class = "skills-box col-lg-4 col-sm-12">
       <i class="fas fa-random fa-4x"></i>
-      <h4>Others</h4>
-      <p>Leadership, Skateboarding, Baking</p>
+      <h4 class = "skill-title">Others</h4>
+      <p>Leadership, Social Media Marketing, Skateboarding, Baking, Piano, Trumpet</p>
     </div>
   </div>
   </section>
 
   <section id = "experience-section">
     <h3 class = "title-section">Experiences</h3>
+
       <div class = "column">
         <div class = "experience-box card">
           <div class ="card-body">
             <h3>Web Manager</h3>
-            <p>Campus Center Management</p>
-            <p>2019-2020</p>
+            <div class = "exp-location-yr">
+              <p><a class = "exp-employer"href = "https://www.albany.edu/campuscenter/index.shtml"><em>Campus Center Management</em></a></p>
+              <p><em>2019-2020</em></p>
+            </div>
             <ul>
               <li>Boosted communication over 400% between organizations by implementing a campaign to enhance engagement in the student body using social media and the university’s televisions</li>  
               <li>Generated a responsive email newsletter using HTML4, CSS, and Adobe XD to improve communication in the student body </li>
@@ -147,13 +157,16 @@
           </div>
         </div>
       </div>
+      
 
     <div class = "column">
       <div class = "card experience-box">
         <div class ="card-body">
           <h3>Software QA & Web Research</h3>
-          <p>IoT Nation</p>
-          <p>2019</p>
+          <div class = "exp-location-yr">
+            <p><a class = "exp-employer" href = "https://www.iotnation.com/"><em>IoT Nation</em></a></p>
+            <p><em>2019-2019</em></p>
+          </div>
           <ul>
             <li>Validated data and ensured its accuracy in both frontend and backend by recognizing patterns</li>  
             <li>Flagged defects and bugs; commented/reported to the relevant teams using Jira </li>
@@ -174,7 +187,7 @@
           <div class = "card-body">
             <h4 class = "card-title">YelpCamp</h4>
             <p class = "card-text">Find the perfect campground for you or your family. Built in July 2020 - August 2020</p>
-            <a href = "#" class="btn btn-large btn-outline-dark">See YelpCamp</a>
+            <a href = "https://quiet-ocean-23086.herokuapp.com/" class="btn btn-large btn-outline-dark">See YelpCamp</a>
           </div>
         </div>
       </div> 
@@ -184,8 +197,8 @@
           <img src="assets/color-guessing-game-image.png" class = "img-fluid" alt = "Color Game Website">
           <div class = "card-body">
             <h4 class = "card-title">Color Guessing Game</h4>
-            <p class = "card-text">How well do you know the Hex Color Code? Built in July 2020. </p>
-            <a href = "#" class = "btn btn-large btn-outline-dark">See Color Game</a>
+            <p class = "card-text">How well do you know the Hexcode Color? Built in July 2020. </p>
+            <a href = "https://github.com/laiamanda/ColorGuessingGame" class = "btn btn-large btn-outline-dark">See Color Game</a>
           </div>
         </div>
       </div>
@@ -196,7 +209,7 @@
           <div class = "card-body">
             <h4 class = "card-title">Valid</h4>
             <p class = "card-text">This was my first website. Built back in March 2019 - May 2019.</p>
-            <a href="#" class="btn btn-large btn-outline-dark">See Valid</a>
+            <a href = "https://www.albany.edu/~al593923/Homepage.html" class="btn btn-large btn-outline-dark">See Valid</a>
           </div>
         </div>
       </div>
@@ -210,10 +223,10 @@
     </div>
 
     <div class="bottom-container">
-      <a class="footer-link" href="mailto:alai2@albany.edu"><i class="footer-icon fas fa-envelope-square"></i></a>
-      <a class="footer-link" href="https://www.linkedin.com/in/lai-amanda/"><i class=" footer-icon fab fa-linkedin"></i></a>
-      <a class="footer-link" href="https://www.instagram.com/amanda.is.working/"><i class=" footer-icon fab fa-instagram-square"></i></a>
-      <a class="footer-link" href="https://github.com/laiamanda"><i class=" footer-icon fab fa-github-square"></i></a>  
+      <a class="footer-link" href="mailto:alai2@albany.edu"><i class="footer-icon fas fa-envelope-square fa-lg"></i></a>
+      <a class="footer-link" href="https://www.linkedin.com/in/lai-amanda/"><i class=" footer-icon fab fa-linkedin fa-lg"></i></a>
+      <a class="footer-link" href="https://www.instagram.com/amanda.is.working/"><i class=" footer-icon fab fa-instagram-square fa-lg"></i></a>
+      <a class="footer-link" href="https://github.com/laiamanda"><i class=" footer-icon fab fa-github-square fa-lg"></i></a>  
     </div>
 
     <p>© 2021 Amanda Lai</p>
