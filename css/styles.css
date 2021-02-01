@@ -8,23 +8,31 @@ h1{
     font-weight: bold;
     font-size: 4em;
 }
+
 .title-section{
     color: #212529;
     padding: 1.5% 0;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-family: 'Ruda', sans-serif;
 }
 .white-title-section{
     color: #fff;
     padding: 1.5% 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-family: 'Ruda', sans-serif;
 }
+
 /* LANDING SECTION */
 #landing-section{
+    padding: 20% 5%;
     background-color: #212529;
     color: #fff;
-    padding: 5% 7%;
     text-align: center;
+}
+.landing-paragraph{
+    color: #c4c4c4;
+    line-height: 0.3;
 }
 
 /* ABOUT ME SECTION */
@@ -45,25 +53,46 @@ h1{
     text-align: center;
     padding: 3% 5%;
 }
+.skill-row{
+    padding-bottom: 2.5%;
+}
+.skill-box{
+    padding: 3% 5%;
+}
+.skill-title{
+    font-size: 2rem;
+    padding: 1.75% 0;
+}
 
 /*EXPERIENCE SECTION */
 #experience-section{
-    text-align: center;
+    background-color: #fff;
+    text-align: left;
     padding: 3% 5%;
 }
 .experience-box{
-    margin-left: 25%;
     width: 50%;
+    margin-left: 25%;
+}
+.exp-location-yr{
+    text-align: left;
+    display: inline-block;
+    line-height: 0.5; 
+}
+.exp-employer{
+    color: #212529;
+    text-decoration: none;
 }
 .column{
     padding-bottom: 5%;
 }
+
 /* PROJECT SECTION */
 #project-section{
     background-image: url("../assets/xray-03.png");
     background-attachment: fixed;
     background-size: cover;
-    padding: 3% 7%;
+    padding: 4% 7%;
     text-align: center;
 }
 
@@ -71,6 +100,9 @@ h1{
 #footer-section{
     text-align: center;
     padding: 3% 5%;
+}
+.bottom-container{
+    padding: 2% 0;
 }
 .footer-icon{
     color: #212529;
