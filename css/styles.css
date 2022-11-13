@@ -37,7 +37,9 @@ h2 {
 h3 {
   font-family: 'Noto Sans', sans-serif;
 }
+
 /* GLOBAL CLASSES */
+
 .btn-custom {
   background-color: #ADF7B6;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -112,7 +114,7 @@ h3 {
 
 .navbar {
   opacity: 0;
-  filter:alpha(opacity=0);
+  filter: alpha(opacity=0);
   transition: 0.9s;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
@@ -244,6 +246,11 @@ footer {
 @media screen and (max-width: 1200px){
   .img-box {
     transform: rotate(10deg);
+    margin-left: 20%;
+  }
+  .navbar{
+    filter: alpha(opacity=100);
+    opacity: 100;
   }
 }
 
@@ -261,8 +268,13 @@ footer {
   }
 
   .experience-card {
-    padding: 1% 4%;
+    padding: 1% 6%;
     justify-content: center;
+  }
+
+  .portfolio-title {
+    font-size: 48px;
+    text-align: center;
   }
 
   .portfolio-header {
@@ -279,9 +291,10 @@ footer {
     text-align: center;
     transform: rotate(0deg);
     width: 50%;
+    justify-content: center;
   }
   .experience-card {
-    padding: 1% 5.5%;
+    padding: 1% 6%;
     justify-content: center;
   }
 }
