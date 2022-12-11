@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+     <meta charset="utf-8">
+    <meta name="description" content="This is Amanda Lai, Full Stack Developer based in NYC, CV.">
+    <meta name="keywords" content="Full Stack Developer, NYC, Javascript, Vue, PostgreSQL">
+    <meta name="author" content="Amanda Lai">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title> amanda lai </title>
 
@@ -57,32 +62,35 @@
       <div class="row">
         <div class="col">
           <h1> welcome to 👋 <span class="key-word-yellow"> amanda's </span> portfolio </h1>
-          <p> i’m a full-stack dev based in nyc </p>
-          <a class="footer-link" href="mailto:amanda.lai.dev@gmail.com"><i class="footer-icon fas fa-envelope-square fa-3x"></i></a>
+          <p id="landing-description"> i’m a full-stack dev based in nyc </p>
+          </br>
+          <a href="mailto:amanda.lai.dev@gmail.com"><i class="footer-icon fas fa-envelope-square fa-3x"></i></a>
           <a class="footer-link" href="https://www.linkedin.com/in/lai-amanda/"><i class=" footer-icon fab fa-linkedin fa-3x"></i></a>
           <a class="footer-link" href="https://github.com/laiamanda"><i class=" footer-icon fab fa-github-square fa-3x"></i></a>  
         </div>
         <div class="col">
-          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <img class="blob-img" src="/assets/blobs/Group 4.png" alt="Green Blob">
+          <img class="profile-pic" src="/assets/self.png" alt="Amanda Profile Pic">
+          <!-- <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path fill="#FFEE93" d="M43.1,-72.6C56.9,-66.8,69.6,-57.2,72.5,-44.4C75.5,-31.7,68.6,-15.8,67.7,-0.5C66.8,14.8,71.9,29.7,69.5,43.2C67,56.7,56.9,68.9,44.1,70.8C31.2,72.6,15.6,64.1,0.7,62.9C-14.2,61.7,-28.5,67.8,-41.4,66.1C-54.4,64.3,-66.2,54.7,-73.6,42.3C-81,30,-84.1,15,-84.2,-0.1C-84.3,-15.2,-81.5,-30.3,-73,-40.6C-64.4,-50.9,-50,-56.4,-36.9,-62.5C-23.8,-68.6,-11.9,-75.5,1.4,-77.9C14.7,-80.4,29.4,-78.4,43.1,-72.6Z" transform="translate(100 100)" />
-          </svg>
+          </svg> -->
         </div>
       </div>
     </div>
   </section>
-    
-    <section id = "about-section">
+
+  <section id = "about-section">
     <div class= "container">
       <div class="row">
         <div class="col">
           <h1> <span class="key-word-white"> about </span> me </h1>
-          <p>
+          <p class="about-description">
             Graduated with B.S in Computer Science at University at Albany in Dec 2020.
             Currently, I’m working as a Full Stack Developer at GreyCastle Security.
             My interest is in frontend, web development, and cybersecurity.
             My current goal is expanding my python knowledge, and building more web apps.
           </p>
-          <p>
+          <p class="about-description">
             Before my technical roles, I worked in marketing for 2+ years, specializing in social media.
             In the past, I have volunteered in politic, nursing, and event coordination. 
             I have held 5 leadership roles from being Captain of Girl’s Golf to Secretary.
@@ -160,10 +168,10 @@
         <div class="col col-md-6 col-12">
           <div class="experience-card">
             <div>
-              <h3>IT System Integrator</h3>
+              <h3>Full Stack Developer</h3>
             </div>
             <div class="experience-card-sub-header">
-              <p class="experience-card-sub-header-left">GreyCastle Security</p>
+              <a href="https://greycastlesecurity.com" class="experience-card-sub-header-left">GreyCastle Security</a>
               <p class="experience-card-sub-header-right">Aug 2021 - Present</p>
             </div>
             <ul>
@@ -183,7 +191,7 @@
               <h3>Web Manager</h3>
             </div>
             <div class="experience-card-sub-header">
-              <p class="experience-card-sub-header-left">UAlbany CC</p>
+              <a href="https://www.albany.edu" class="experience-card-sub-header-left">UAlbany CC</a>
               <p class="experience-card-sub-header-right">Aug 2019 - Dec 2020</p>
             </div>
             <ul>
@@ -203,7 +211,7 @@
               <h3>QA Analysis</h3>
             </div>
             <div class="experience-card-sub-header">
-              <p class="experience-card-sub-header-left" >IoT Nation</p>
+              <a href="https://www.iotnation.com/" class="experience-card-sub-header-left" >IoT Nation</a>
               <p class="experience-card-sub-header-right">Jun-2019 - Aug-2019</p>
             </div>
             <ul>
@@ -225,5 +233,33 @@
       <a class="footer-link" href="https://github.com/laiamanda"><i class=" footer-icon fab fa-github-square fa-3x"></i></a>  
     </div>
   </section>
+
+  <!-- <section id = "about-section">
+    <div class= "row">
+      <div class = "d-none d-sm-none d-md-none d-lg-block col-lg-6 ">
+        <img src="assets/Circle.png" class = "img-fluid self-img" alt="Image of Amanda">
+      </div>
+      <div class = "profile col-lg-6 col-sm-12">
+        <h3 class = "title-section">About Me</h3>
+        <p>
+          Graduated from University at Albany with a B.S in Computer Science. I focused my academic coursework’s on algorithms, data structure, and mathematics. I am particularly interested in Web Development, UX/UI, and Marketing. 
+          Initially when I started my college career, I felt uneasy in my major. I always wanted to learn programming, however, my coursework made me doubt myself and my skills. 
+          By my junior year, I decided to take a web development thinking nothing about it. </p>
+
+        <p>
+          Since then, I have enjoyed web development and have been honing my skills by working on various side-projects. I even completed a Udemy’s course focusing on Full-Stack development back in 2020. 
+          Besides my enjoyment in web development, I enjoy the arts. I like spending my free time writing stories, drawing, painting, and playing instruments. 
+          When I am not working on any art projects or code, you can find me spending my time on working on a podcast with my friends, baking, or watching dramas and anime. 
+        </p>
+
+        <p>
+          This year, my most important goal is to focus on my health and my family. Last year, I decided to focus my code on quantity rather than quality. 
+          This year, it's the opposite. This year, I plan to learn more programming languages and tools and show it on Github.
+          I want to work on bigger projects that I'm interested in, draw more, and keep applying to jobs. 
+        </p>
+      </div>
+    </div>
+  </section> -->
+
 </body>
 </html>
